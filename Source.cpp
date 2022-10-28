@@ -3,7 +3,9 @@
 using namespace std;
 int cong(int a, int b);//SV A
 int tru(int a, int b);//SV B
-int nhan(int a, int b);//SV C
+int nhan(int a, int b){
+	return a * b;
+}
 int chia(int a, int b);//SV D
 int main()
 {
