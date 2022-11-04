@@ -27,15 +27,16 @@ int demAm(int a[], int n){
 }
 
 int main()
-{
+{	
+	cout<<"NHToan";
 	int a, b;
 	cout << "CHUONG TRINH TINH TOAN CO BAN" << endl;
 	//Cac ban code tai day
 	int result = chia(a,b);
 	cout << result <<endl;
-
 	cout<<"Tong 2 so 3 va 5 la : " <<tong(3,5);
 	cout << endl;
+	cout <<"Het";
 	system("pause");
 	return 0;
 }
