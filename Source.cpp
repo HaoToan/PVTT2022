@@ -17,6 +17,15 @@ int nhan(int a, int b){
 	return a * b;
 }
 
+//Nguyen Thanh Vinh
+int demAm(int a[], int n){
+	for(int i = 0; i < n; i++) {
+		if(a[i] < 0)
+			dem++;
+	}
+	return dem;
+}
+
 int main()
 {
 	int a, b;
