@@ -18,7 +18,8 @@ int nhan(int a, int b){
 }
 
 int main()
-{
+{	
+	cout<<"NHToan";
 	int a, b;
 	cout << "CHUONG TRINH TINH TOAN CO BAN" << endl;
 	//Cac ban code tai day
