@@ -16,10 +16,16 @@ int chia(int a, int b){
 int nhan(int a, int b){
 	return a * b;
 }
-
+void ktAmDuong(int a){
+	if(a>0)
+		cout<<a<<" Đây là số dương"<<endl;
+	if(a<0)
+		cout<<a<<" Đây là số âm"<<endl;
+	else
+		cout<<a<<" Số không âm không dương =]]";
+}
 int main()
-{	
-	cout<<"NHToan";
+{
 	int a, b;
 	cout << "CHUONG TRINH TINH TOAN CO BAN" << endl;
 	//Cac ban code tai day
@@ -27,7 +33,10 @@ int main()
 	cout << result <<endl;
 	cout<<"Tong 2 so 3 va 5 la : " <<tong(3,5);
 	cout << endl;
-	cout <<"Het";
+	cout <<"Het";S
 	system("pause");
+	ktAmDuong(6);
+	ktAmDuong(-2);
+	ktAmDuong(0);
 	return 0;
 }
