@@ -37,6 +37,12 @@ void ktAmDuong(int a){
 		cout<<a<<" Số không âm không dương =]]";
 }
 >>>>>>> KTAmDuong
+void KTChanLe (int a){
+	if(a%2==0)
+		cout <<a<<" đây la số chẳn"<<endl;
+	else 
+		cout<<"ngược lại là số lẻ"<<endl; 
+}
 int main()
 {
 	cout<< "Ngoc Phu";
